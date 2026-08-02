@@ -4,22 +4,22 @@ cask "factuarea" do
 
   on_macos do
     on_intel do
-      sha256 "52f1ce0846a6a47a2e91da57a036b6456d975344f8b2610fc32f7a0744411dca"
+      sha256 "ab4d52e276efbac4ccc15cfac6c32202dfb338f85928339e9c61a2fc85fd35a4"
       url "https://github.com/factuarea/factuarea-cli/releases/download/v#{version}/factuarea_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9abd2b46e20c17deb9c264421d2426f4b0574e9a13b492345ded0188e13ecec2"
+      sha256 "a4d857a9646fefa3fa5d1bd180c87dc4e06b0375e624e76e0570f7b0186fb62c"
       url "https://github.com/factuarea/factuarea-cli/releases/download/v#{version}/factuarea_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "098ca641e85e36bab46427455d55feea88919c375050ad1f1bc2a19192e50829"
+      sha256 "b4df74e1a35c5ed24f47427d7f7cbfbd327ce82a2d5181df8a2154b770c0ac56"
       url "https://github.com/factuarea/factuarea-cli/releases/download/v#{version}/factuarea_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ccb7a6babd7bba9cef83420a75be8c3f46b4cb29a8e7acfa9558607840690283"
+      sha256 "a0131e9dd7cb4706f59e98e830e7092beedcb298888cecc7a6563cde3a15740d"
       url "https://github.com/factuarea/factuarea-cli/releases/download/v#{version}/factuarea_#{version}_linux_arm64.tar.gz"
     end
   end
